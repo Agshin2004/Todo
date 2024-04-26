@@ -181,7 +181,7 @@ function removeItemFromStorage(item) {
   itemsFromStorage = itemsFromStorage.filter((i) => {
     console.log('i: ' + i);
     console.log('item: ' + item);
-    return i !== item // Return item that DOES NOT equl to i, if it does then do not return it (it will be removed)
+    return i !== item // Return item that DOES NOT equal to i, if it does then do not return it (it will be removed)
   });
 
   // Re-set to localStorage
